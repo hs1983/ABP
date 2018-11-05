@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AbpCompanyName.AbpProjectName.Application</name>
+    </assembly>
+    <members>
+        <member name="T:AbpCompanyName.AbpProjectName.AbpProjectNameAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.IPersonService.GetPersonsAsync">
+            <summary>
+            异步获取Person列表
+            </summary>
+            <returns>List-PersonListDto</returns>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.IPersonService.GetPersonByName(System.String)">
+            <summary>
+            根据姓名获取Person实体
+            </summary>
+            <param name="name">姓名</param>
+            <returns>PersonListDto</returns>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.IPersonService.DelPersonByName(System.String)">
+            <summary>
+            删除指定Person
+            </summary>
+            <param name="name">Person姓名</param>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.IPersonService.CreateUser(AbpCompanyName.AbpProjectName.Persons.Dto.CreatePersonInput)">
+            <summary>
+            创建Person
+            </summary>
+            <param name="input">person实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.PersonService.GetPersonByName(System.String)">
+            <summary>
+            根据姓名获取Person实体
+            </summary>
+            <param name="name">姓名</param>
+            <returns>PersonListDto</returns>
+        </member>
+        <member name="M:AbpCompanyName.AbpProjectName.Persons.PersonService.GetPersonsAsync">
+            <summary>
+            异步获取Person列表
+            </summary>
+            <returns>List-PersonListDto</returns>
+        </member>
+    </members>
+</doc>
